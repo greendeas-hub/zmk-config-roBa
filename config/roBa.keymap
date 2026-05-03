@@ -58,11 +58,13 @@
         lclk {
             bindings = <&mkp LCLK>;
             key-positions = <17 18>;
+            layers = <4>;
         };
 
         rclk {
             bindings = <&mkp RCLK>;
             key-positions = <18 19>;
+            layers = <4>;
         };
     };
 
