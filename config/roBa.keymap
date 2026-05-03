@@ -54,6 +54,16 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+
+        lclk {
+            bindings = <&mkp LCLK>;
+            key-positions = <17 18>;
+        };
+
+        rclk {
+            bindings = <&mkp RCLK>;
+            key-positions = <18 19>;
+        };
     };
 
     macros {
